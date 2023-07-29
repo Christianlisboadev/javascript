@@ -1,0 +1,7 @@
+#corpo{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(202, 202, 202);
+    margin: 200px auto;
+    border-radius: 6px;
+}

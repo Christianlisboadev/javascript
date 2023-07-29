@@ -1,0 +1,11 @@
+criar o html, css e js
+
+criar uma função que leia a largura e altura da ''window'' do navegador, usando a função window.innerHeight e window.innerWidth. Utilizar o disparador de eventos onresize no body para disparar a função
+
+introduzir a imagem do mosquito
+
+utilizar a função random da biblioteca Math para criar uma posição randomica para o mosquito, multiplicando o valor pela largura e altura da window.
+
+para não acontecer de a imagem ser renderizada fora da tela, devido a largura de 50px. Diminuímos 90px na hora da declaração da variável de posição, e em seguida criamos uma lógica usando operador ternário, para atribuir o valor 0 em caso do valor da posição ser menor do que 0
+
+criando tamanho aleatorio do mosquito, utilizando a biblioteca Math novamente e o método random

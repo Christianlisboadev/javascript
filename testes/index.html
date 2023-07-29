@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        body{
+            height: 2vh;
+            background-color: aqua;
+        }
+
+        .elemento{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position: relative;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <main>
+
+        <div class="elemento">
+
+        </div>
+    </main>
+    <script>
+        window.sr = ScrollReveal({ reset: true });
+
+        sr.reveal('.elemento', {
+            rotate: {x: 200, y:100, z:100},
+            duration: 2000
+            
+        })
+    </script>
+</body>
+</html>
